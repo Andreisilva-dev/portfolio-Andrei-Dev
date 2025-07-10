@@ -1,17 +1,138 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #191919;
     color: white;
+    font-size: 1.6rem;
 }
 
+img {
+    width: 100%;
+}
+
+/* headeer */
+header {
+    max-width: 33.0rem;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: #191919;
+    
+}
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icons-redes-nav img {
+    width: 1.9rem;
+}
+
+/* sessao apresentação */
+main {
+    max-width: 33.0rem;
+    margin: auto;
+    padding: 1.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
+}
+
+
+.apresentacao img{
+    border-radius: 50%;
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
+/* hardskils */
+
+.box-hardskils {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.mystarks {
+    text-align: center;
+}
+
+.icons-hardskils img{
+    width: 3.8rem;
+}
+
+/* sessao projetos */
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+.subtitulo-projeto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+
+/* sessao cards */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+}
+
+
+.card article {
+    text-align: center;
+    line-height: 2.5rem;
+    background-color: #363636;
+    
+}
+
+.links-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-card img {
+    width: 2.0rem;
+}
+
+.links-card p:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 1.0rem;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 1.0rem;
+}
+footer img {
+    width: 3.0rem;
+}

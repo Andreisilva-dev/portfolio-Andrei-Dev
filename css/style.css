@@ -16,21 +16,31 @@ body {
 
 /* headeer */
 header {
+  text-transform: uppercase;
   max-width: 33rem;
   margin: auto;
   text-align: center;
 }
 
 nav {
-  background-color: #191919;
+  background-color: #cccccc3d;
+  
 }
 nav ul {
   list-style: none;
 }
 
+nav ul li:hover {
+  background-color: #191919;
+  color: #fff;
+  cursor: pointer;
+}
 nav a {
   text-decoration: none;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .icons-redes-nav img {
@@ -94,6 +104,7 @@ main {
 
 .card img {
   width: 100%;
+  
 }
 .cards {
   display: flex;

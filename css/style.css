@@ -66,12 +66,6 @@ main {
 }
 
 /* hardskils */
-
-.box-hardskils {
-  /* display: flex;
-  flex-direction: column;
-  gap: 1.4rem; */
-}
 .mystarks {
   text-align: center;
 }
@@ -91,6 +85,7 @@ main {
 }
 
 .card {
+  margin-bottom: 0.8rem;
   max-width: 30rem;
   border-radius: 0.8rem;
   background-color: #cccccc53;
@@ -98,7 +93,7 @@ main {
 
 .card img {
   width: 100%;
-  border-radius: 0.8rem 0rem 0rem;
+  border-radius: 0.8rem 0.8rem 0rem 0rem;
 }
 
 .links-card {
@@ -126,6 +121,17 @@ main {
   text-decoration: none;
 }
 
+.links-card p {
+  background-color: #191919;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.links-card p:hover {
+  background-color: #19191977;
+  cursor: pointer;
+}
 /* footer */
 footer {
   text-align: center;

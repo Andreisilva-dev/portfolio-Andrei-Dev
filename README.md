@@ -1,6 +1,6 @@
 # 🧩 Meu Portfólio de Projetos
 
-Olá! 👋 Seja bem-vindo(a) ao meu portfólio. Aqui você encontrará uma seleção dos meus principais projetos, desenvolvidos com dedicação, criatividade e foco em boas práticas. Este repositório reúne 6 projetos que representam minha evolução como desenvolvedor(a).
+Olá! 👋 Seja bem-vindo(a) ao meu portfólio. Aqui você encontrará uma seleção dos meus principais projetos, desenvolvidos com dedicação, criatividade e foco em boas práticas. Este repositório reúne 6 projetos que representam minha evolução como desenvolvedor.
 
 ---
 

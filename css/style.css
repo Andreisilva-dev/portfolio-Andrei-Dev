@@ -24,7 +24,6 @@ header {
 
 nav {
   background-color: #cccccc3d;
-  
 }
 nav ul {
   list-style: none;
@@ -69,9 +68,9 @@ main {
 /* hardskils */
 
 .box-hardskils {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 1.4rem; */
 }
 .mystarks {
   text-align: center;
@@ -84,60 +83,47 @@ main {
 /* sessao projetos */
 
 .projetos {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.subtitulo-projeto {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  margin: auto;
 }
 
-/* sessao cards */
+.subtitulo-projeto {
+  text-align: center;
+}
+
 .card {
   max-width: 30rem;
-  background-color: #363636;
-  border-radius: 1.6rem;
+  border-radius: 0.8rem;
+  background-color: #cccccc53;
 }
 
 .card img {
   width: 100%;
-  
-}
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.card article {
-  text-align: center;
-  line-height: 2.5rem;
-  background-color: #363636;
+  border-radius: 0.8rem 0rem 0rem;
 }
 
 .links-card {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0.5rem;
-}
-
-.links-card a {
-  color: white;
-  text-decoration: none;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .links-card img {
   width: 2rem;
 }
 
-.links-card p:nth-child(2) {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+.card article {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.card article h3 {
+  text-transform: uppercase;
+}
+
+.links-card a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
 
 /* footer */
@@ -147,4 +133,119 @@ footer {
 }
 footer img {
   width: 3rem;
+}
+
+/* tablet */
+@media (min-width: 630px) {
+  header {
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    background-color: #191919;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .icons-redes-nav img {
+    width: 2.7rem;
+    margin-left: 1rem;
+  }
+
+  main {
+    max-width: 80rem;
+    margin: auto;
+  }
+
+  .apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-principal h1 {
+    font-size: 2.9rem;
+  }
+
+  .box-hardskils {
+    margin: auto;
+    
+  }
+
+  .box-hardskils article {
+    font-size: 2.3rem;
+  }
+
+  .icons-hardskils {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icons-hardskils img {
+    min-width: 8.8rem;
+  }
+
+  .subtitulo-projeto {
+    font-size: 2.9rem;
+    text-align: center;
+  }
+
+  
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.0rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+/* desktop */
+@media (min-width: 1024px){
+  header {
+    max-width: 100%;
+  }
+
+  main {
+    max-width: 100%;
+  }
+
+  .apresentacao {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .titulo-principal h1 {
+    max-width: 40.0rem;
+    font-size: 4.9rem;
+  }
+
+  .box-hardskils article {
+    font-size: 3.0rem;
+  }
+
+  .icons-hardskils img {
+    max-width: 6.8rem;
+  }
+
+  footer {
+    max-width: 100%;
+  }
 }

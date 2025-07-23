@@ -247,6 +247,11 @@ footer img {
     font-size: 3.0rem;
   }
 
+  .icons-hardskils {
+    display: flex;
+    gap: 2.0rem;
+  }
+
   .icons-hardskils img {
     max-width: 6.8rem;
   }
